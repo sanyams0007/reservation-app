@@ -1,0 +1,142 @@
+{
+  "journeys": [
+    {
+      "source": "Canada",
+      "destination": "Australia",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 22
+    },
+    {
+      "source": "Germany",
+      "destination": "USA",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 23
+    },
+    {
+      "source": "China",
+      "destination": "USA",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 24
+    },
+    {
+      "source": "China",
+      "destination": "Australia",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 25
+    },
+    {
+      "source": "Brazil",
+      "destination": "Russia",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 26
+    },
+    {
+      "source": "Russia",
+      "destination": "UK",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 27
+    },
+    {
+      "source": "UK",
+      "destination": "Canada",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 28
+    },
+    {
+      "source": "Japan",
+      "destination": "Germany",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 29
+    },
+    {
+      "source": "Russia",
+      "destination": "USA",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 30
+    },
+    {
+      "source": "Australia",
+      "destination": "Japan",
+      "uid": 8,
+      "doj": "2022-01-26",
+      "id": 31
+    }
+  ],
+  "users": [
+    {
+      "email": "sam@gmail.com",
+      "pwd": "wasdwasd",
+      "phone": "123456789",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "email": "jessica@gmail.com",
+      "pwd": "jessica",
+      "phone": "1234567890",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "email": "admin@fake.com",
+      "pwd": "admin",
+      "phone": "1234567890",
+      "role": "admin",
+      "id": 99
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Germany"
+    },
+    {
+      "name": "USA"
+    },
+    {
+      "name": "Poland"
+    },
+    {
+      "name": "Canada"
+    },
+    {
+      "name": "Russia"
+    },
+    {
+      "name": "China"
+    },
+    {
+      "name": "Japan"
+    },
+    {
+      "name": "UK"
+    },
+    {
+      "name": "Australia"
+    },
+    {
+      "name": "Brazil"
+    },
+    {
+      "name": "Norway",
+      "id": 2
+    },
+    {
+      "name": "France",
+      "id": 3
+    },
+    {
+      "name": "Spain",
+      "id": 4
+    }
+  ]
+}

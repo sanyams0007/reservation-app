@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", "Segoe UI";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  overflow-x: hidden;
+  background-color: #5d5d5a;
+  color: #fff4e3;
+  font-family: "Manrope", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  height: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: "Merriweather" !important;
+}
+
+.sidenav {
+  max-width: 150px;
+  width: 100%;
+  position: absolute;
+  background: rgb(4, 3, 6);
+  height: -webkit-fill-available;
+}
+
+.container_back {
+  background-color: #ffa45c !important;
+}
+
+.auth_box {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.booking_item {
+  background: #1565c0;
+  margin: 10px 0px;
+  border-radius: 6px;
+  padding: 0px 15px;
+}
+
+.orline {
   display: flex;
-  flex-direction: column;
+  margin: 10px 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.orline > hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  clear: both;
+  flex-grow: 1;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.orline > div {
+  padding: 0 20px;
+}
+
+.paginate_list {
+  display: flex;
+  list-style: none;
+}
+
+@media (max-width: 560px) {
+  .sidenav {
+    height: fit-content;
+    max-width: 100%;
+    position: static;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main_content {
+    padding: 20px 0 !important;
   }
 }

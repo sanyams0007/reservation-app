@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/users/:email": "/users?email=:email",
+  "/journeys?uid=:uid": "/journeys?uid=:uid",
+  "/journeys/:id": "/journeys/:id"
+}
